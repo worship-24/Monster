@@ -1,0 +1,341 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+
+	font-family: 'Montserrat', sans-serif;
+}
+/*header start*/
+
+.header{
+	background-image: url(../images/bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.blr{
+	background-color: rgba(0,0,0,.7);
+}
+
+.wrapper{
+	width:80%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.menu-header{
+	width:100%;
+	background-color:black;
+
+}
+.logo{
+	width:20%;
+	float:left;
+}
+.logo h1{
+	color:#fff;
+	margin-top: 16px;
+	font-size: 30px;
+	font-family: 'Alegreya', serif;
+
+}
+.menu{
+	width:70%;
+	float:right;
+}
+.menu ul{
+	list-style:none;
+	float:right;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding:15px 15px;
+	font-size: 14px;
+	margin:8px 0;
+	color:#fff;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	padding-right:0px;
+	
+}
+.menu ul li a:hover{
+	background-color: black;
+	border-radius:5px;
+}
+.banner{
+	margin:200px 0;
+}
+.banner-content{
+	width:41%;
+	margin:0 auto;
+}
+.banner-content h1{
+	font-size: 40px;
+	color: #fff;
+	font-weight: 500;
+}
+.banner-icon{
+	width:32%;
+	margin:0 auto;
+}
+.banner-icon i{
+	padding:10px 15px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+/*header end*/
+/* About start */
+.about{
+	padding-bottom:20px;
+}
+
+.title{
+	width:30%;
+	margin:0 auto;
+	padding:15px 0;
+	padding:30px 0;
+}
+.title h1{
+	font-size: 35px;
+	font-weight:900;
+	color: #232323;
+
+}
+.bottom{
+	overflow:hidden;
+	min-height:200px;
+}
+.display-pic{
+	width:45%;
+	float:left;
+	position:relative;
+}
+.display-pic img{
+	width:100%;
+	position:absolute;
+}
+.about-content{
+	width:53%;
+	float:right;
+}
+.message{
+	color:#393937;
+}
+.message h6{
+	color:#434340;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+.message p{
+	color: #8a8c8f;
+	line-height:1.5;
+}
+.projects{
+	overflow:hidden;
+}
+.p-left{
+	width:40%;
+	float:left;
+}
+.p-right{
+	width:48%;
+	float:right;
+}
+.projects p{
+	color: #8a8c8f;
+	font-size: 12px;
+	font-weight: 600;
+	padding:4px 0;
+}
+.projects hr{
+	width:80%;
+	border:.5px dashed #8a8c8f;
+
+}
+
+/* About end */
+
+/* Offer start */
+.offer{
+	padding:50px 0;
+
+}
+.offer-title{
+	text-align: center;
+	margin:0 auto;
+}
+.offer-title h1{
+	font-size: 40px;
+	font-weight: 800;
+}
+.offer1{
+	width:47%;
+	float:left;
+	margin-top: 25px;
+}
+.offer1:nth-child(odd){
+	margin-left: 6%;
+}
+.offer-icon{
+	width:15%;
+	float:left;
+	padding:15px 0;
+}
+.offer-icon i{
+	background-color: #EDEEE9;
+	padding:15px 20px;
+	border-radius:50%;
+	font-size: 40px;
+
+}
+.offer-content{
+	width:80%;
+	float:right;
+}
+.offer-content h5{
+	font-size: 16px;
+	
+}
+.offer-content p{
+	color: #756f6f;
+	line-height:1.8;
+	padding:20px 0;
+}
+
+/* Offer end */
+/* feature start */
+.feature{
+	
+}
+.feature-title{
+	text-align: center;
+}
+.feature-title h1{
+	color: #232323;
+	font-size: 40px;
+	font-weight: 800;
+}
+.menu2{
+	width:68%;
+	float:right;
+	margin-top: 20px;
+	
+}
+.menu2 ul{
+	float:left;
+	list-style:none;
+}
+.menu2 ul li{
+	float:left;
+}
+.menu2 ul li a{
+	display: block;
+	text-decoration: none;
+	padding:10px 8px;
+	color: #756f6f;
+	font-size: 10px;
+	font-weight: 700;
+	transition:.5s;
+}
+.menu2 ul li a:hover{
+	color: #000000;
+}
+
+.gallary{
+	
+}
+.gallary-box{
+	width:100%;
+	float:left;
+}
+.g1{
+	width:31%;
+	float:left;
+	padding:10px 10px;
+}
+
+.g1 img{
+	width:100%;
+}
+/* feature end */
+/* reviews start */
+.reviews{
+	
+}
+.rev-title{
+	text-align: center;
+	
+}
+.rev-title h1{
+	font-size: 30px;
+	font-weight: 900;
+	padding:40px 0;
+}
+.reviews p{
+	width:65%;
+	margin:0 auto;
+	color: #756f6f;
+	padding:3px 0;
+	font-size: 14px;
+	line-height:1.5;
+}
+
+/* reviews end */
+/* contact start */
+.contact{
+
+}
+.c-title{
+	text-align: center;
+}
+.c-title h1{
+	font-size: 35px;
+	font-weight: 900;
+	padding:40px 0;
+}
+.contact-form{
+	width:70%;
+	margin:0 auto;
+
+}
+.contact-form input{
+	background-color: #ECEAEB;
+	border:0px;
+	margin-top: 10px;
+	padding:12px 2px;
+	padding-right:80px;
+	font-size: 22px;
+	margin-left: 10px;
+	box-shadow:2px solid rgba(0,0,0,.6);
+}
+.contact-form input:nth-child(5){
+	padding-top:0px;
+	padding-bottom:40px;
+	padding-right:445px;
+}
+.submit{
+	text-align: center;
+	
+}
+.submit a{
+	background-color: #433F40;
+	color: #FEFEFE;
+	padding:10px 15px;
+	text-decoration: none;
+	font-weight: 600;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius:3px;
+}
+
+
+/* contact end */
